@@ -16,18 +16,8 @@
 
 ## 2) Execution
 
-To run the service.
+Jar generation
 
-    $ gradlew jettyRun
-
-To run unit test
-
-    $ gradlew test
-
-To build .war file
-
-    $ gradlew war
-
-## 3) Using the the REST service
+    $ gradlew jar
 
 ## 4 Specials Confs.
