@@ -1,0 +1,17 @@
+group 'org.alcastic.robocode'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile ('net.sf.robocode:robocode.api:1.9.2.1');
+    compile ('org.projectlombok:lombok:1.16.6')
+}
