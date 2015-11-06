@@ -15,3 +15,7 @@ dependencies {
     compile ('net.sf.robocode:robocode.api:1.9.2.1');
     compile ('org.projectlombok:lombok:1.16.6')
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.8'
+}
