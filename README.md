@@ -1,4 +1,4 @@
-# SampleSpringREST
+# Sample Robocode Tank
 
 ## 1) Project Information
 
@@ -14,10 +14,7 @@
     - JDK 1.7
     - Gradle 2.7
 
-## 2) Execution
-
-Jar generation
+## 2) Jar generation
 
     $ gradlew jar
 
-## 4 Specials Confs.
